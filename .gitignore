@@ -18,7 +18,7 @@ virt/
 *.out
 .pylintrc
 
-compiled
+build
 
 # Compiled source #
 ###################
