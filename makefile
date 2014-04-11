@@ -4,7 +4,7 @@ RUST_COMPILED_DIR="build/"
 RUST_NAMES=$(RUST_SRC:.rs=)
 RESULTING_NAMES=$(addprefix build/, $(RUST_NAMES))
 
-all: $(RUST_COMPILED_DIR) build/hello build/classes
+all: $(RUST_COMPILED_DIR) build/hello build/classes build/enums_classes
 	@echo $(RUST_SRC)
 	@echo $(RESULTING_NAMES)
 
